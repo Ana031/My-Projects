@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('./fonts//RobotoMono-Thin.ttf');
+}
+
+* {
+  font-family: 'RobotoMono', monospace;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #fff;
+  background: linear-gradient(to right, rgb(255, 226, 89), rgb(255, 167, 81));
+  /* linear-gradient(to right, rgb(238, 156, 167), rgb(255, 221, 225)); Degrade de rosa*/
+  /* linear-gradient(to right, rgb(255, 153, 102), rgb(255, 94, 98)); Degrade salmao */
+}
